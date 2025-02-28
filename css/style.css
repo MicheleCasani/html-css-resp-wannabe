@@ -128,10 +128,39 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* tablet version */
+ /* tablet version  768px */
  
  @media screen and (max-width: 768px){
     .container{
         width: 100%;
     }
  }
+
+ /* mobile version 480px */
+
+ @media screen and (max-width: 480px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+   .col {
+        width: 100% !important
+    }
+
+    .why-us{
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+
+    .steps{
+        margin: 0px;
+    }
+
+    .lessons{
+        padding-bottom: 40px;
+    }
+    }
